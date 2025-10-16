@@ -1,7 +1,7 @@
-# wmanta.github.io
-Repository for CSC193 assignments. Below is the table of contents for all assignments.
+# wmanta.github.io  
+Repository for CSC193 assignments. Below is the table of contents for all assignments.  
 
-## Table of Contents
+## Table of Contents  
 [Assignment 4](#assign4)
 [Assignment 5](#assign5)
 
