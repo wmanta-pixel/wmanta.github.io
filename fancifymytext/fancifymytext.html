@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		 <script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<!-- Your UI controls go here -->
+
+		<!-- Text area -->
+		<form>
+			<fieldset>
+				<label for="text">Fancify</label><br>
+				<textarea id="text" name="text" rows="4" cols="30">Enter text here. This a sentence to show the Moo button functionality. There is no cow level.</textarea>
+			</fieldset>
+			<fieldset>
+				<input type="button" value="Bigger!" onclick="bigText()"><br>
+				<input type="button" value="Moo" onclick="moo()"><br>
+				
+				<input type="radio" id="shmancy" name="fancify" value="shmancy" checked="fancy" onchange="fancyText()">
+				<label for="shmancy">FancyShmancy</label><br>
+
+				<input type="radio" id="betty" name="fancify" value="betty" checked="boring" onchange="fancyText()">
+				<label for="betty">BoringBetty</label>
+			</fieldset>
+			
+		</form>
+		
+	</body>
+</html>
